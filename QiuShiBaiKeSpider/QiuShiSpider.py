@@ -53,7 +53,8 @@ def getContent(url, page):
 																										  "").replace(
 			"。", "。\n")
 		print("用户---" + userName)
-		print("内容:---\n" + content)
+		print("内容:---\n	" + content)
+		print("\n\n")
 
 
 if __name__ == '__main__':
